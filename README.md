@@ -25,7 +25,20 @@ To use BubbleNet, you can either download the code through GitHub:
 ```bash
 git clone https://github.com/hanfengzhai/BubbleNet.git
 ```
+Try out the single bubble case and train both the DNN and BubbleNet:
 
+*I. if you are using the remote super computing center:*
+```bash
+sbatch SingleBubble_SuperComputing.sh
+```
+*II. if you are using the work station at your lab or home:*
+```bash
+bash SingleBubble_WorkStation.sh
+```
+
+# Tech Info
+
+If you are a developer wishing to custume your own BubbleNet for predictions
 
 # References
 
