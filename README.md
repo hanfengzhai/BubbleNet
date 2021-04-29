@@ -14,11 +14,12 @@ To see the technical details of BubbleNet, please see
 
 To use BubbleNet, you can either download the code through GitHub:
 
-‘’‘
-
-git clone https://github.com/hanfengzhai/BubbleNet.git
-
-’‘’
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+puts markdown.to_html
+```
 
 
 # References
