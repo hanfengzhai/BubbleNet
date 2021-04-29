@@ -35,6 +35,11 @@ sbatch SingleBubble_SuperComputing.sh
 ```bash
 bash SingleBubble_WorkStation.sh
 ```
+*III. or just run it directly:*
+```bash
+python DNN_SingleBubble.py
+python BubbleNet_SingleBubble.py
+```
 
 # Tech Info
 
