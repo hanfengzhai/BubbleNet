@@ -12,9 +12,9 @@ BubbleNet is a powerful tool not only for bubble flow, but also for multiphase f
 
 Here, we show that \textsc{BubbleNet} are able to predict the bubbles' movements and the related physics fields (<img src="https://latex.codecogs.com/svg.image?u,&space;v,&space;p,&space;\phi" title="u, v, p, \phi" />). Due to page limites, we only show how well BubbleNet can work on bubble movements compared with traditional DNNs.
 
-![](/Documents/figures/PhysNet_sub.png)
+![Deep learning predictions compared with original CFD results for single bubble case.](/Documents/figures/phil.png)
 
-![](/Documents/figures/PhysNet_sub.png)
+![Deep learning predictions compared with original CFD results for multiple bubbles case.](/Documents/figures/phi_sys.png)
 
 To see more results, visit [](), about the technical details of BubbleNet, please see []()
 
