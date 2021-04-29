@@ -7,3 +7,5 @@ BubbleNet consists of three parts: I. three SubNets of deep neural nets for lear
 ![](/Documents/figures/PhysNet_sub.png)
 
 To see the technical details of BubbleNet, please see
+
+![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
