@@ -62,3 +62,17 @@ For (La)TeX users:
   year={2021}
 }
 ```
+```tex
+@software{zhai_hanfeng_2021_4769081,
+  author       = {Zhai, Hanfeng},
+  title        = {{Data for BubbleNet code \& micro-bubbles system 
+                   dynamics simulation}},
+  month        = mar,
+  year         = 2021,
+  note         = {This is not the official published version.},
+  publisher    = {Zenodo},
+  version      = {v.0.0},
+  doi          = {10.5281/zenodo.4769081},
+  url          = {https://doi.org/10.5281/zenodo.4769081}
+}
+```
