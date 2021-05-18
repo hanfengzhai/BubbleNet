@@ -45,6 +45,9 @@ python BubbleNet_SingleBubble.py
 
 If you are a developer wishing to custume your own BubbleNet for predictions
 
-# References
+# Reference & Citation
 
+The authors are more than happy if you refer the following works:
 
+> H. Zhai and G. Hu. (2021) Inferring micro-bubble dynamics with physics-informed deep learning. *arXiv preprint*. [arXiv:2105.07179
+](https://arxiv.org/abs/2105.07179).
