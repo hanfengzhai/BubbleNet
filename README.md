@@ -57,11 +57,13 @@ The authors are more than happy if you refer the following works:
 For (La)TeX users:
 
 ```tex
-@article{Zhai2021BubbleNet,
-  title={Inferring micro-bubble dynamics with physics-informed deep learning},
-  author={Zhai, Hanfeng and Hu, Guohui},
-  journal={arXiv preprint arXiv:2105.07179},
-  year={2021}
+@misc{zhai2021BubbleNet,
+    title={Inferring micro-bubble dynamics with physics-informed deep learning},
+    author={Hanfeng Zhai and Guohui Hu},
+    year={2021},
+    eprint={2105.07179},
+    archivePrefix={arXiv},
+    primaryClass={physics.flu-dyn}
 }
 ```
 ```tex
