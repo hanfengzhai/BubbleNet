@@ -1,10 +1,10 @@
 # [BubbleNet](https://hanfengzhai.net/BubbleNet)
 
+[<img src="https://www.pngkey.com/png/full/911-9113941_international-human-rights-instruments-white-transparent-website-logo.png" height="30"/>](https://hanfengzhai.net/BubbleNet)      [<img src="https://pngimg.com/uploads/github/github_PNG53.png" height="30"/>](https://github.com/hanfengzhai/BubbleNet)      [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png" height="30"/>](https://www.youtube.com/watch?v=fKkvRyeWANM)      [<img src="https://cdn6.aptoide.com/imgs/8/f/1/8f16818c289cd522f8bc83ebaceba4b5_icon.png" height="30"/>](https://www.bilibili.com/video/BV1Jv411L7aV)      [<img src="https://cdn.freebiesupply.com/logos/large/2x/wechat-logo-png-transparent.png" height="30"/>](https://mp.weixin.qq.com/s?__biz=MzkxNjIwNTk3Mg==&mid=2247483718&idx=1&sn=783218a0461baeb43b3e3839b05c8ee9&chksm=c15239bdf625b0ab48428cde6664e88c2ff58618bc19fd555b6b048ed43ba39cc840daa48e3a&token=1821514206&lang=zh_CN#rd)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4769081.svg)](https://doi.org/10.5281/zenodo.4769081) [![DOI](http://img.shields.io/badge/physics.flu_dyn-arXiv%3A2105.07179-B31B1B.svg)](https://arxiv.org/abs/2105.07179)
 
 [BubbleNet](https://hanfengzhai.net/BubbleNet) is a deep learning framework building on top of [PINN](https://maziarraissi.github.io/PINNs/) for inferring bubble flow in microfluids.
-
-[<img src="https://www.pngkey.com/png/full/911-9113941_international-human-rights-instruments-white-transparent-website-logo.png" height="50"/>](https://hanfengzhai.net/BubbleNet)      [<img src="https://pngimg.com/uploads/github/github_PNG53.png" height="50"/>](https://github.com/hanfengzhai/BubbleNet)      [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png" height="50"/>](https://www.youtube.com/watch?v=fKkvRyeWANM)      [<img src="https://cdn6.aptoide.com/imgs/8/f/1/8f16818c289cd522f8bc83ebaceba4b5_icon.png" height="50"/>](https://www.bilibili.com/video/BV1Jv411L7aV)      [<img src="https://cdn.freebiesupply.com/logos/large/2x/wechat-logo-png-transparent.png" height="50"/>](https://mp.weixin.qq.com/s?__biz=MzkxNjIwNTk3Mg==&mid=2247483718&idx=1&sn=783218a0461baeb43b3e3839b05c8ee9&chksm=c15239bdf625b0ab48428cde6664e88c2ff58618bc19fd555b6b048ed43ba39cc840daa48e3a&token=1821514206&lang=zh_CN#rd)
 
 # Intro
 
