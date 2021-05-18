@@ -1,5 +1,7 @@
 # [BubbleNet](https://hanfengzhai.net/BubbleNet)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4769081.svg)](https://doi.org/10.5281/zenodo.4769081)
+
 [BubbleNet](https://hanfengzhai.net/BubbleNet) is a deep learning framework building on top of [PINN](https://maziarraissi.github.io/PINNs/) for inferring bubble flow in microfluids.
 
 # Intro
