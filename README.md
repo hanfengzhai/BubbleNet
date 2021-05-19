@@ -24,6 +24,11 @@ To see more results, visit [](), about the technical details of BubbleNet, pleas
 
 # Tutorials
 
+BubbleNet is a deep learning package building on top of [TensorFlow](https://www.tensorflow.org/), install tf before using BubbleNet:
+
+```bash
+pip install tensorflow
+```
 To use BubbleNet, you can either download the code through GitHub:
 
 ```bash
@@ -41,8 +46,8 @@ bash SingleBubble_WorkStation.sh
 ```
 *III. or just run it directly:*
 ```bash
-python DNN_SingleBubble.py
-python BubbleNet_SingleBubble.py
+python bubble_DNN.py # run it on traditional deep neural net
+python bubble_PhysNet.py # run it on BubbleNet
 ```
 
 # Tech Info
