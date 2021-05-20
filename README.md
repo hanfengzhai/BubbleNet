@@ -61,24 +61,25 @@ bash SingleBubble_WorkStation.sh # customized for workstations
 python bubblesys_DNN.py # run it on traditional deep neural net
 python bubblesys_PhysNet.py # run it on BubbleNet
 ```
-After the training, you will see the losses callbacks on your command lines, & the accuracy for the NNs. You will also see the saved files of both the DNN & BubbleNet predictions in your directory. Open these '.txt' files with matlab and convert them into '.mat' numerical matrix files.
+After the training, you will see the losses callbacks on your command lines, & the accuracy for the NNs. You will also see the saved files of both the DNN & BubbleNet predictions in your directory. Open these '*.txt*' files with matlab and convert them into '*.mat*' numerical matrix files.
 
-Then, execute the '.m' files to generate figures for the final results, either with [MATLAB<img src="https://latex.codecogs.com/svg.image?\circledR" title="\circledR" />](https://www.mathworks.com/products/matlab.html) or [Octave](https://www.gnu.org/software/octave/index):
+Then, execute the '*.m*' files to generate figures for the final results, either with [MATLAB<img src="https://latex.codecogs.com/svg.image?\circledR" title="\circledR" />](https://www.mathworks.com/products/matlab.html) or [Octave](https://www.gnu.org/software/octave/index):
 ```bash
 octave figure_preparation.m 
 octave figure_generation.m 
 ```
-
+Now, sort out all the figures and you've already utilize most of BubbleNet! :)
 
 # Tech Info
 
-If you are a developer wishing to custume your own BubbleNet for predictions
+If you are a developer wishing to custume your own BubbleNet for predictions, please refer the following details of the algorithms.
 
 <center>
 <img src="/Documents/figures/ALGORITHM1.jpg" width="550"/>
 
 <img src="/Documents/figures/ALGORITHM2.jpg" width="550"/>
 </center>
+
 
 # Reference & Citation
 
