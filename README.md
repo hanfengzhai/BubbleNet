@@ -75,9 +75,9 @@ octave figure_generation.m
 If you are a developer wishing to custume your own BubbleNet for predictions
 
 <center>
-<img src="/Documents/figures/ALGORITHM1.jpg" width="350"/>
+<img src="/Documents/figures/ALGORITHM1.jpg" width="550"/>
 
-<img src="/Documents/figures/ALGORITHM2.jpg" width="350"/>
+<img src="/Documents/figures/ALGORITHM2.jpg" width="550"/>
 </center>
 
 # Reference & Citation
