@@ -29,7 +29,7 @@ mm = MinMaxScaler()
 np.random.seed(1234)
 tf.set_random_seed(1234)
 
-class PhysicsInformedNN:
+class DeepNeuralNet:
     # Initialize the class
     def __init__(self, x, y, t, u, v, p, phil, layers):
         
@@ -376,7 +376,7 @@ if __name__ == "__main__":
     phil_train = phil[idx,:]
 
     # Training
-    model = PhysicsInformedNN(x_train, y_train, t_train, u_train, v_train, p_train, phil_train, layers)
+    model = DeepNeuralNet(x_train, y_train, t_train, u_train, v_train, p_train, phil_train, layers)
     model.train(100000)
     
     # Test Data
