@@ -74,9 +74,11 @@ octave figure_generation.m
 
 If you are a developer wishing to custume your own BubbleNet for predictions
 
-![Deep learning predictions compared with original CFD results for single bubble case.](/Documents/figures/ALGORITHM1.jpg)
+<center>
+<img src="/Documents/figures/ALGORITHM1.jpg" width="100"/>
 
-![Deep learning predictions compared with original CFD results for single bubble case.](/Documents/figures/ALGORITHM2.jpg)
+<img src="/Documents/figures/ALGORITHM2.jpg" width="100"/>
+</center>
 
 # Reference & Citation
 
