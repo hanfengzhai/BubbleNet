@@ -65,7 +65,7 @@ After the training, you will see the losses callbacks on your command lines, & t
 
 Then, execute the '.m' files to generate figures for the final results, either with [MATLAB<img src="https://latex.codecogs.com/svg.image?\circledR" title="\circledR" />](https://www.mathworks.com/products/matlab.html) or [Octave](https://www.gnu.org/software/octave/index):
 ```bash
-octave figure_generation.m 
+octave figure_preparation.m 
 octave figure_generation.m 
 ```
 
@@ -73,6 +73,10 @@ octave figure_generation.m
 # Tech Info
 
 If you are a developer wishing to custume your own BubbleNet for predictions
+
+![Deep learning predictions compared with original CFD results for single bubble case.](/Documents/figures/ALGORITHM1.jpg)
+
+![Deep learning predictions compared with original CFD results for single bubble case.](/Documents/figures/ALGORITHM2.jpg)
 
 # Reference & Citation
 
