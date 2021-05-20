@@ -80,66 +80,6 @@ If you are a developer wishing to custume your own BubbleNet for predictions, pl
 <img src="/Documents/figures/ALGORITHM2.jpg" width="550"/>
 </center>
 
-```tex
-\begin{algorithm}[t]
-\begin{algorithmic}[1]
-\Function{DeepNeuralNet}{${self},\ x,\ y,\ t,\ u,\ v,\ p,\ \phi,\ layers$}
-\State $(\hat{x},\ \hat{y},\ \hat{t},\ \hat{u},\ \hat{v},\ \hat{p},\ \hat{\phi })$ = \Call{Update}{$x,\ y,\ t,\ u,\ v,\ p,\ \phi $}
-\State $(\hat{weights},\ \hat{biases},\ \hat{layers})$ = $self.$\Call{\textsf{InitializeNN}}{${weights},\ {biases},\ layers$}
-
-\State $self.{\rm Loss}$ = \texttt{MSE}[$(u - u_{pred}) + (v - v_{pred}) + (p - p_{pred}) + (\phi - \phi_{pred})$]
-
-\State $u_{pred}$ = $self.$\Call{$\rm Net_u$}{${x,\ y,\ t}$}
-
-\State $ v_{pred}$ = $self.$\Call{$\rm Net_v$}{$x,\ y,\ t$} 
-
-\State $ p_{pred}$ = $self.$\Call{$\rm Net_p$}{$x,\ y,\ t$}
-
-\State $ \phi_{pred} $= $self.$\Call{$\rm Net_{\phi}$}{$x,\ y,\ t$} 
-
-\State Optimization method \textsf{'L-BFGS-B'} \& Optimizer: \textsf{Adam}
-
-\State \textbf{def} \textsc{InitializeNN}($self,\ layers$)
-
-\State  \indent Initialize all the $weights\ \& \ biases$ for $\rm Net_u$, $\rm Net_v$, $\rm Net_p$, $\rm Net_{\phi}$.
-
-\State \textbf{def} \textsc{NeuralNet}($self,\ weights,\ biases$)
-
-\State  \indent Build NN for $u,\ v,\ p,\ \phi$ with four sets of $weights\  \&\ biases$.
-
-\State \textbf{def} \{$\rm Net_u, Net_v, Net_p, Net_{\phi}$\} ($self,\ x,\ y,\ t$)
-
-\State  \indent \{$u,\ v,\ p,\ \phi$\} = $self$.\textsc{NeuralNet}($x,\ y,\ t,\ weights,\ biases$)
-
-\State \textbf{def} \textsc{Train}($self,\ iterations$)
-
-\State \indent Obtain training time \& Losses; train the NN with \textsf{Adam} optimizer.
-
-\State \textbf{def} \textsc{Predict} \{$u,\ v,\ p,\ \phi $\} ($self,\ iterations$)
-
-\State \indent \{$u_{pred},\ v_{pred},\ p_{pred},\ {\phi}_{pred} $\} = $self.$ \texttt{sess}.run($x,\ y,\ t$)
-
-\EndFunction
-
-\State Input = \{$x,\ y,\ t$\}, Output = \{$u,\ v,\ p,\ \phi $\} 
-\State Hidden layers = [30 neurons $\times$ 9 layers]
-\State Load fields data of micro-bubble system dynamics simulation.
-\State Set training sets =  \{$x_{train},\ y_{train},\ t_{train},\ u_{train},\ v_{train},\ p_{train},\ {\phi}_{train},\ layers$\} = \textsf{MaxMinScaler}(Simulation Data)
-
-\State \texttt{model} = \textsc{DeepNeuralNet}(training sets)
-
-\State \texttt{model}.\textsc{Train}($\# Iterations$)
-
-\State Set target prediction time as $t_{pred}$
-
-\State Obtain  \{$u_{pred},\ v_{pred},\ p_{pred},\ {\phi}_{pred} $\} = \texttt{model.}\textsc{Predict}($x,\ y,\ t$) at $t_{pred}$.
-
-\State Save all the data \& post-processing.
-\end{algorithmic}
-\caption{\label{dnn} \textsf{DNN} for predicting bubble dynamics}
-\end{algorithm}
-```
-
 # Reference & Citation
 
 The authors are more than happy if you refer the following works:
