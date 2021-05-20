@@ -107,7 +107,6 @@ For (La)TeX users:
   month        = mar,
   year         = 2021,
   publisher    = {Zenodo},
-  version      = {v.0.0},
   doi          = {10.5281/zenodo.4769081},
   url          = {https://doi.org/10.5281/zenodo.4769081}
 }
