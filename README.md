@@ -63,7 +63,7 @@ python bubblesys_PhysNet.py # run it on BubbleNet
 ```
 After the training, you will see the losses callbacks on your command lines, & the accuracy for the NNs. You will also see the saved files of both the DNN & BubbleNet predictions in your directory. Open these '.txt' files with matlab and convert them into '.mat' numerical matrix files.
 
-Then, execute the '.m' files to generate figures for the final results, either with [MATLAB](https://www.mathworks.com/products/matlab.html)$^\circledR$ or [Octave](https://www.gnu.org/software/octave/index):
+Then, execute the '.m' files to generate figures for the final results, either with [MATLAB<img src="https://latex.codecogs.com/svg.image?\circledR" title="\circledR" />](https://www.mathworks.com/products/matlab.html) or [Octave](https://www.gnu.org/software/octave/index):
 ```bash
 octave figure_generation.m 
 octave figure_generation.m 
