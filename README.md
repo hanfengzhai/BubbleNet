@@ -29,26 +29,46 @@ BubbleNet is a deep learning package building on top of [TensorFlow](https://www
 ```bash
 pip install tensorflow
 ```
-To use BubbleNet, you can either download the code through GitHub:
+To use BubbleNet, you first need to download the code through GitHub (on your customized directory):
 
 ```bash
 git clone https://github.com/hanfengzhai/BubbleNet.git
 ```
-Try out the single bubble case and train both the DNN and BubbleNet:
+In our practice, we trained our NNs on [Beijing Super Cloud Computing Center](http://www.blsc.cn/), (BLSC). We therefore offer bash files can be runned on both BLSC or your lab work station. Here, you can try out the single bubble case and train both the DNN and BubbleNet:
 
-*I. if you are using the remote super computing center:*
+*I. For BLSC users, please run*
 ```bash
 sbatch SingleBubble_SuperComputing.sh
 ```
-*II. if you are using the work station at your lab or home:*
+*II. If you are using the work station at your lab or home:*
 ```bash
 bash SingleBubble_WorkStation.sh
 ```
-*III. or just run it directly:*
+*III. Or just execute the py files directly:*
 ```bash
 python bubble_DNN.py # run it on traditional deep neural net
 python bubble_PhysNet.py # run it on BubbleNet
 ```
+Similarly, training the bubbly flow with multiple bubbles case on NN, run:
+```bash
+sbatch MultiBubble_SuperComputing.sh # for BLSC users
+```
+```bash
+bash SingleBubble_WorkStation.sh # customized for workstations
+```
+```bash
+# directly execute the python files
+python bubblesys_DNN.py # run it on traditional deep neural net
+python bubblesys_PhysNet.py # run it on BubbleNet
+```
+After the training, you will see the losses callbacks on your command lines, & the accuracy for the NNs. You will also see the saved files of both the DNN & BubbleNet predictions in your directory. Open these '.txt' files with matlab and convert them into '.mat' numerical matrix files.
+
+Then, execute the '.m' files to generate figures for the final results, either with MATLAB or Octave:
+```bash
+octave figure_generation.m 
+octave figure_generation.m 
+```
+
 
 # Tech Info
 
@@ -80,7 +100,6 @@ For (La)TeX users:
                    dynamics simulation}},
   month        = mar,
   year         = 2021,
-  note         = {This is not the official published version.},
   publisher    = {Zenodo},
   version      = {v.0.0},
   doi          = {10.5281/zenodo.4769081},
