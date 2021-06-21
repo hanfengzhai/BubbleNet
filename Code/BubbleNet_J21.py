@@ -20,7 +20,6 @@ import h5py
 from itertools import product, combinations
 from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-from plotting import newfig, savefig
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import matplotlib.gridspec as gridspec
 from mpi4py import MPI
@@ -298,16 +297,7 @@ class PhysicsInformedNN:
         phil_star = self.sess.run(self.phil_pred, tf_dict_phil)
         
         return phil_star
-# ==============================================================================================      
-def axisEqual3D(ax):
-    extents = np.array([getattr(ax, 'get_{}lim'.format(dim))() for dim in 'xyz'])
-    sz = extents[:,1] - extents[:,0]
-    centers = np.mean(extents, axis=1)
-    maxsize = max(abs(sz))
-    r = maxsize/4
-    for ctr, dim in zip(centers, 'xyz'):
-        getattr(ax, 'set_{}lim'.format(dim))(ctr - r, ctr + r)     
-# ==============================================================================================          
+# ==============================================================================================            
 # ==============================================================================================  
 if __name__ == "__main__": 
     
