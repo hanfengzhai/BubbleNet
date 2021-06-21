@@ -7,7 +7,7 @@ Reference: Physics-Informed Neural Networks <https://maziarraissi.github.io/PINN
 """
 
 import sys
-sys.path.insert(0, '../Utilities/') # OPTIONAL: only if you want to use the plotting function with py
+sys.path.insert(0, '/Utilities/') # OPTIONAL: only if you want to use the plotting function with py
 
 import tensorflow as tf
 import numpy as np
