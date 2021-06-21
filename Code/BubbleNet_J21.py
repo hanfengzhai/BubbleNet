@@ -107,13 +107,13 @@ class PhysicsInformedNN:
                     tf.reduce_sum(tf.square(self.phil_BCs_4_pred)) + \
                     tf.reduce_sum(tf.square(self.phil_BCs_5_pred)) 
                     
-        self.optimizer = tf.contrib.opt.ScipyOptimizerInterface(self.loss, 
-                                                                method = 'L-BFGS-B',
-                                                                options = {'maxiter': 500000,
-                                                                           'maxfun': 500000,
-                                                                           'maxcor': 50,
-                                                                           'maxls': 50,
-                                                                           'ftol' : 1.0 * np.finfo(float).eps})        
+#         self.optimizer = tf.contrib.opt.ScipyOptimizerInterface(self.loss, 
+#                                                                 method = 'L-BFGS-B',
+#                                                                 options = {'maxiter': 500000,
+#                                                                            'maxfun': 500000,
+#                                                                            'maxcor': 50,
+#                                                                            'maxls': 50,
+#                                                                            'ftol' : 1.0 * np.finfo(float).eps})        
         
         self.optimizer_Adam = tf.train.AdamOptimizer()
         self.train_op_Adam = self.optimizer_Adam.minimize(self.loss)                    
