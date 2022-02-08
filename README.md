@@ -20,7 +20,7 @@ Here, we show that \textsc{BubbleNet} are able to predict the bubbles' movements
 
 ![Deep learning predictions compared with original CFD results for multiple bubbles case.](/Documents/figures/phi_sys.png)
 
-To see more results, visit [](), about the technical details of BubbleNet, please see []()
+To see more results & the technical details of BubbleNet, visit [2105.07179](https://arxiv.org/abs/2105.07179).
 
 # Tutorials
 
