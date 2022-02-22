@@ -59,8 +59,8 @@ After the training, you will see the losses callbacks on your command lines, & t
 
 Then, execute the '*.m*' files to generate figures for the final results, either with [MATLAB<img src="https://latex.codecogs.com/svg.image?\circledR" title="\circledR" />](https://www.mathworks.com/products/matlab.html) or [Octave](https://www.gnu.org/software/octave/index):
 ```bash
-octave figure_preparation.m 
-octave figure_generation.m 
+figure_preparation.m 
+figure_generation.m 
 ```
 Now, sort out all the figures and you've already utilize most of BubbleNet! :)
 
