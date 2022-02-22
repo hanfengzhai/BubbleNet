@@ -36,7 +36,7 @@ git clone https://github.com/hanfengzhai/BubbleNet.git
 ```
 In our practice, we trained our NNs on [Beijing Super Cloud Computing Center](http://www.blsc.cn/), (BLSC). Based on the first author's personal experience, most supercomuting environment use [Slurm](https://slurm.schedmd.com/sbatch.html) system, i.e. [Cornell G2](https://it.coecis.cornell.edu/researchit/g2cluster/), [XSEDE](https://www.xsede.org/), etc. Here, you can try out the single bubble case and train both the DNN and BubbleNet using the slurm command:
 
-*I. For BLSC users, please run*
+*I. For [SC](https://g.co/kgs/Me8WPn) users, please run*
 ```bash
 sbatch super-computer.sub
 ```
