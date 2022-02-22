@@ -38,7 +38,7 @@ In our practice, we trained our NNs on [Beijing Super Cloud Computing Center](ht
 
 *I. For BLSC users, please run*
 ```bash
-sbatch SingleBubble_SuperComputing.sh
+sbatch SuperComputing.sh
 ```
 *II. If you are using the work station at your lab or home:*
 ```bash
@@ -50,12 +50,6 @@ python bubble_DNN.py # run it on traditional deep neural net
 python bubble_PhysNet.py # run it on BubbleNet
 ```
 Similarly, training the bubbly flow with multiple bubbles case on NN, run:
-```bash
-sbatch MultiBubble_SuperComputing.sh # for BLSC users
-```
-```bash
-bash SingleBubble_WorkStation.sh # customized for workstations
-```
 ```bash
 # directly execute the python files
 python bubblesys_DNN.py # run it on traditional deep neural net
