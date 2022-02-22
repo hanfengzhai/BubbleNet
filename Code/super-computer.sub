@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -J bubblenet                          # Job name
+#SBATCH -o bubblenet%j.out                        # output file (%j expands to jobID)
+#SBATCH -e bubblenet%j.err                        # error log file (%j expands to jobID)
+#SBATCH --mail-type=ALL                        # Request status by email 
+#SBATCH --mail-user=your-email          # Email address to send results to.
+#SBATCH -N 3                                   # Total number of nodes requested
+#SBATCH -n 100                                  # Total number of cores requested
+#SBATCH --get-user-env                         # retrieve the users login environment
+#SBATCH --mem=10000                            # server memory requested (per node)
+#SBATCH -t 10:00:00                           # Time limit (hh:mm:ss)
+#SBATCH --partition="your-cpu-or-gpu"                  # Request partition
+
+mpirun -np 100 python bubble_DNN.py
+mpirun -np 100 python bubble_PhysNet.py
+mpirun -np 100 python bubblesys_DNN.py
+mpirun -np 100 python bubblesys_PhysNet.py
