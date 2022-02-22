@@ -42,7 +42,7 @@ sbatch SingleBubble_SuperComputing.sh
 ```
 *II. If you are using the work station at your lab or home:*
 ```bash
-bash SingleBubble_WorkStation.sh
+bash work-station.sh
 ```
 *III. Or just execute the py files directly:*
 ```bash
