@@ -78,19 +78,23 @@ If you are a developer wishing to custume your own BubbleNet for predictions, pl
 
 The authors are more than happy if you refer the following works:
 
-> H. Zhai and G. Hu. (2021) Inferring micro-bubble dynamics with physics-informed deep learning. *arXiv preprint*. [arXiv:2105.07179
-](https://arxiv.org/abs/2105.07179).
+> Hanfeng Zhai, Quan Zhou, and Guohui Hu , "Predicting micro-bubble dynamics with semi-physics-informed deep learning", AIP Advances 12, 035153 (2022) [https://doi.org/10.1063/5.0079602](10.1063/5.0079602)
 
 For (La)TeX users:
 
 ```tex
-@misc{zhai2021BubbleNet,
-    title={Inferring micro-bubble dynamics with physics-informed deep learning},
-    author={Hanfeng Zhai and Guohui Hu},
-    year={2021},
-    eprint={2105.07179},
-    archivePrefix={arXiv},
-    primaryClass={physics.flu-dyn}
+@article{Zhai2022,
+  doi = {10.1063/5.0079602},
+  url = {https://doi.org/10.1063/5.0079602},
+  year = {2022},
+  month = mar,
+  publisher = {{AIP} Publishing},
+  volume = {12},
+  number = {3},
+  pages = {035153},
+  author = {Hanfeng Zhai and Quan Zhou and Guohui Hu},
+  title = {Predicting micro-bubble dynamics with semi-physics-informed deep learning},
+  journal = {{AIP} Advances}
 }
 ```
 ```tex
