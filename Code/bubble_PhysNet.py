@@ -303,7 +303,7 @@ if __name__ == "__main__":
     P_star = data['p'] # N x T
     Phil_star = data['phil'] # N x T
     t_star = data['t'] # T x 1
-    X_star = data['X_star'] # N x 2
+    X_star = data['X'] # N x 2
     
     N = X_star.shape[0]
     T = t_star.shape[0]
