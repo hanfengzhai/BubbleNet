@@ -331,12 +331,13 @@ if __name__ == "__main__":
     layers = [3, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 1]
     
     # Load Data
-    Xdata = scipy.io.loadmat('../Data/X.mat')
-    tdata = scipy.io.loadmat('../Data/t.mat')
-    pdata = scipy.io.loadmat('../Data/p.mat')
-    udata = scipy.io.loadmat('../Data/u.mat')
-    vdata = scipy.io.loadmat('../Data/v.mat')
-    phildata = scipy.io.loadmat('../Data/phi.mat')
+#     Xdata = scipy.io.loadmat('../Data/X.mat')
+#     tdata = scipy.io.loadmat('../Data/t.mat')
+#     pdata = scipy.io.loadmat('../Data/p.mat')
+#     udata = scipy.io.loadmat('../Data/u.mat')
+#     vdata = scipy.io.loadmat('../Data/v.mat')
+#     phildata = scipy.io.loadmat('../Data/phi.mat')
+    data = scipy.io.loadmat('../Data/MultiBubbleData_TDN.mat')
            
     u_star = udata['u'] # N x T
     v_star = vdata['v'] # N x T
