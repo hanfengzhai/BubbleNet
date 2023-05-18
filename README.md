@@ -1,6 +1,6 @@
 # [BubbleNet](https://doi.org/10.1063/5.0079602)
 
-> :warning:**Note:** this work was partially developed from my undergraduate thesis.
+> **Note:** this work was partially developed from my undergraduate thesis.
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4769081.svg)](https://doi.org/10.5281/zenodo.4769081) [![DOI](http://img.shields.io/badge/physics.flu_dyn-arXiv%3A2105.07179-B31B1B.svg)](https://arxiv.org/abs/2105.07179)
